@@ -44,7 +44,7 @@
     position: relative;
     min-height: 757px;
     width: 1100px;
-
+    background-color: rgb(0, 0, 0, 0.6);
 }
 
 .lots {
@@ -142,7 +142,8 @@
     top: 0;
     left: 0;
     z-index: -1;
-
+    background-size: cover;
+    background-position: center;
 
 
 }
@@ -151,8 +152,10 @@
     background-image: url(../images/cover.jpg);
     min-width: 1100px;
     min-height: 757px;
+   
 
 }
+
 
 .main_title {
     display: grid;
@@ -306,6 +309,7 @@
     background-image: url(../images/card-lot-01.jpg);
     min-width: 334px;
     min-height: 596px;
+
 }
 
 .lots_card_book {
