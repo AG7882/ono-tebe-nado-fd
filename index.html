@@ -40,15 +40,15 @@
       <article class="cover">
         <div class="overlay cover_img"></div>
         <h1 class="main_title font_white_uppercase">
-          <span class="cover_logo_left">Оно</span>
-          <span class="cover_logo_center">Тебе</span>
-          <span class="cover_logo_right">Надо</span>
+          <span class="cover_logo_left cover_logo_space">Оно</span>
+          <span class="cover_logo_center cover_logo_space">Тебе</span>
+          <span class="cover_logo_right cover_logo_space">Надо</span>
         </h1>
 
-        <div class="description font_white_uppercase">
-          <p class="description_text">
+        <div class="description">
+          <p class="description_text  font_white_uppercase">
             Аукцион вещей, в которые никто не верил
-            <button class="bet_button font_white_uppercase">
+            <button class=" description_text bet_button font_white_uppercase">
               Сделать ставку
             </button>
           </p>
@@ -61,17 +61,19 @@
     <section class="lots">
       <h2 class="blocks_heading">Лоты</h2>
       <ul class="card_list">
-        <li class="lots_card">
+        <li>
 
-          <article class="lots_card_data lots_card_movie">
+          <article class="lots_card_data lots_card">
+            <div class="lots_card_movie overlay"></div>
             <a class="lots_card_title">Фильм режиссёра, который бросил киношколу</a>
             Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что
             режиссёр — Пол Томас Андерсон?
           </article>
         </li>
-        <li class="lots_card">
+        <li>
 
-          <article class="lots_card_data  lots_card_book">
+          <article class="lots_card_data lots_card">
+            <div class="lots_card_book overlay"></div>
             <a class="lots_card_title">Книга, где описан один скучный день из жизни рекламного агента</a>
             Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский.
             В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с
@@ -79,17 +81,20 @@
             «Улисса» Джеймса Джойса?
           </article>
         </li>
-        <li class="lots_card">
+        <li>
 
-          <article class="lots_card_data  lots_card_painting">
+          <article class="lots_card_data lots_card">
+            <div class="lots_card_painting overlay"></div>
             <a class="lots_card_title">Картина, которую повторит даже 5-летний сын маминой подруги</a>
             Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку.
             Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это —
             одна из революционных работ Кандинского?
           </article>
         </li>
+
       </ul>
-      <a href="">посмотреть больше</a>
+      <div class="style_underline style_reference spacing_reference "><a href="" class="recolored_reference">посмотреть
+          больше</a></div>
     </section>
 
 
@@ -102,18 +107,21 @@
       </div>
 
       <article class="about__data">
-        <h2 class="blocks_heading">Об аукционе</h2>
-        <div class="about_text">
-          <p>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще
+        <h2 class="blocks_heading about_heading">Об аукционе</h2>
+        <div class="about_text_style about_text_spacing">
+          <p class="remove_paragraph_margin">Здесь вы не встретите очередное пафосное собрание невероятно дорогого
+            антиквариата. Наши лоты вообще
             не
             должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина,
             которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
           </p>
-          <p>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные
+          <p class="remove_paragraph_margin">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В
+            пух и прах растерзанные
             критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику,
             кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру.
             Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.
           </p>
+
         </div>
 
       </article>
@@ -136,7 +144,7 @@
     </address>
 
     <nav class="footer_nav">
-      <ul class="nav_list style_reset">
+      <ul class="footer_nav_list style_reset">
         <li class="first_nav_list_member"><a>главная</a></li>
         <li class="style_underline"><a>посмотреть лоты</a></li>
         <li class="style_underline"><a>об аукционе</a></li>
