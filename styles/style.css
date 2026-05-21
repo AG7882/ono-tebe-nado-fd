@@ -23,7 +23,7 @@
   display: grid;
   grid-template-areas: " footer_address footer_nav footer_link_list";
   justify-content: start;
-  margin: 30px 0;
+  margin: 35px 0 75px 0;
   font-size: 18px;
   gap: 100px;
   width: 1100px;
@@ -311,12 +311,14 @@
 
 .footer_address {
   grid-area: footer_address;
-  padding: 0 40px 0 50px;
+  padding: 0 60px 0 50px;
+  line-height: 1.4;
 }
 
 .footer_nav {
   grid-area: footer_nav;
   margin: 0 85px 0 0;
+  padding: 0 0 0 0;
 }
 
 .footer_link_list {
